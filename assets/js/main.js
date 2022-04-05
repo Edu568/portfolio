@@ -28,10 +28,10 @@ function linkAction(){
     navMenu.classList.remove('mostrar-menu')
 }
 navLink.forEach(n => n.addEventListener('click', linkAction))
-
+    
 /*---------------OCULTAR MENU SKILLS----------------*/
 
-const skillsContent = document.getElementById('skills_content'),
+const skillsContent = document.getElementByClassName('skills_content')  
     skillsHeader = document.querySelectorAll('.skills_header')
 
 function toggleSkills(){

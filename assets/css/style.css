@@ -39,6 +39,7 @@
 
 }
 
+
 @media screen and (min-width: 968px){
     :root {
         --big-font-size: 3rem;
@@ -113,6 +114,7 @@ a{
 
 img{
     max-width: 100%;
+    height: auto;
 }
 
 .section{
@@ -206,7 +208,7 @@ img{
     gap: 2rem;
 }
 
-.nav_link{
+.nav_link{  
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -519,7 +521,7 @@ img{
 .skills_close .skills_list{
     height: 0;
     overflow: hidden;
-}
+}   
 
 .skills_open .skills_list{
     height: max-content;
